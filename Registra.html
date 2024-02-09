@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <form id="LoginForm" method="get">
+        <fieldset>
+            <legend style="text-align: center;">Registration here</legend>
+            <p style="text-align: center;">
+                <label>Full name</label><br>
+                <input type="text" id="namw" class="form-control" placeholder="Enter your Full name" required />
+            </p>
+            <p style="text-align: center;">
+                <label>National ID</label><br>
+                <input type="number"  id="id" class="form-control" placeholder="Enter your National ID" minlength="10" maxlength="10"
+                    required />
+            </p>
+            <p style="text-align: center;">
+                <label>Phone number</label><br>
+                <input type="tel" id="phone" class="form-control" placeholder="05" required />
+            </p>
+            <p style="text-align: center;">
+                <label>Email</label> <br>
+                <input type="email" class="form-control" placeholder="Email" required>
+            </p>
+            <p style="text-align: center;">
+                <label id="p1">Password </label><br>
+                <input type="password" id="password1" class="form-control" placeholder="Enter password" />
+            </p>
+            <p style="text-align: center;">
+                <label id="p2">Confirm Password </label><br>
+                <input type="password" id="password2" class="form-control" placeholder="Re-ente password" />
+            </p>
+            <p style="text-align: center;">
+                <input type="reset" value="clear" >
+                <a href="login.html"> <input type="submit" value="register"> </a>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
